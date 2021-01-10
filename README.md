@@ -1,7 +1,7 @@
 # ScopeAuthorizationRequirement
 This package provides a `scope` claim authorization requirement for ASP.NET Core.
 
-It handles space delimited `scope` claims according to https://tools.ietf.org/html/rfc6749#section-3.3.
+It handles multiple space delimited `scope` claims according to https://tools.ietf.org/html/rfc6749#section-3.3 (which the ASP.NET Core `RequireClaim` Requirement does not, hence can't be used e.g. with AWS Cognito when using multiple scopes).
 
 ## Installation
 

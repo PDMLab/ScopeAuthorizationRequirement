@@ -17,8 +17,8 @@ namespace ScopeAuthorizationRequirement
     public ScopeAuthorizationRequirement(NonEmptyList<string> requiredScopes)
     {
       if (requiredScopes == null)
-        throw new ArgumentNullException($"{nameof(requiredScopes)} must contain at least one value.",
-          nameof(requiredScopes));
+        throw new ArgumentNullException(nameof(requiredScopes),
+          $"{nameof(requiredScopes)} must be of type NonEmptyList<string>.");
 
       RequiredScopes = requiredScopes.AsEnumerable();
     }

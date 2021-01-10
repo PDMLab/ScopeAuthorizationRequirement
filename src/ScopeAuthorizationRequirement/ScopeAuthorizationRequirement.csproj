@@ -5,7 +5,7 @@
         <PackageVersion>0.1.0</PackageVersion>
         <Title>ScopeAuthorizationRequirement</Title>
         <Authors>Alexander Zeitler</Authors>
-        <Description>Scope Claim authorization rement for ASP.NET Core</Description>
+        <Description>Scope Claim authorization requirment for ASP.NET Core</Description>
         <Copyright>Alexander Zeitler</Copyright>
         <PackageProjectUrl>https://github.com/PDMLab/ScopeAuthorizationRequirement</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/PDMLab/ScopeAuthorizationRequirement/blob/main/LICENSE</PackageLicenseUrl>

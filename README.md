@@ -32,7 +32,7 @@ services.AddAuthorization(options =>
     options.AddPolicy("openid+profile", policy =>
     {
         policy.RequireAuthenticatedUser();
-        policy.RequireScopes(NonEmptyList.Create("openid", "profile));
+        policy.RequireScopes(NonEmptyList.Create("openid", "profile"));
     });
 });
 ```
